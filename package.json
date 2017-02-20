@@ -1,0 +1,26 @@
+{
+  "name": "occs-eight",
+  "version": "1.0.0",
+  "description": "Git repository for the eighth cohort at Orange County Code School.",
+  "main": "index.js",
+  "private": true,
+  "license": "LicenseRef-LICENSE",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/occs/eight.git"
+  },
+  "keywords": [],
+  "author": "OC|CS",
+  "bugs": {
+    "url": "https://github.com/occs/eight/issues"
+  },
+  "homepage": "https://github.com/occs/eight#readme",
+  "devDependencies": {
+    "eslint": "3.15.0",
+    "htmlhint": "0.9.13",
+    "stylelint": "7.9.0"
+  }
+}
