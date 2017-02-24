@@ -19,8 +19,9 @@
   },
   "homepage": "https://github.com/occs/eight#readme",
   "devDependencies": {
-    "eslint": "3.15.0",
+    "eslint": "3.16.1",
     "htmlhint": "0.9.13",
-    "stylelint": "7.9.0"
+    "stylelint": "7.9.0",
+    "stylelint-config-standard": "16.0.0"
   }
 }
