@@ -1,7 +1,7 @@
 {
   "name": "occs-eight",
   "version": "1.0.0",
-  "description": "Git repository for the eighth cohort at Orange County Code School.",
+  "description": "Git repository for the eighth cohort at OC|CS.",
   "main": "index.js",
   "private": true,
   "license": "LicenseRef-LICENSE",
