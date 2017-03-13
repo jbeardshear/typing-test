@@ -1,0 +1,38 @@
+{
+  "name": "occs-eight",
+  "version": "1.0.0",
+  "description": "Git repository for the eighth cohort at OC|CS.",
+  "main": "index.js",
+  "private": true,
+  "license": "LicenseRef-LICENSE",
+  "scripts": {
+    "lint": "run-p lint:*",
+    "lint:html": "htmlhint ./**/*.html",
+    "lint:css": "stylelint ./**/*.css",
+    "lint:js": "eslint ./**/*.js",
+    "test": "npm run lint",
+    "precommit": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/occs/eight.git"
+  },
+  "keywords": [],
+  "author": "OC|CS",
+  "bugs": {
+    "url": "https://github.com/occs/eight/issues"
+  },
+  "homepage": "https://github.com/occs/eight#readme",
+  "devDependencies": {
+    "eslint": "3.16.1",
+    "eslint-config-standard": "6.2.1",
+    "eslint-plugin-promise": "3.4.2",
+    "eslint-plugin-react": "6.10.0",
+    "eslint-plugin-standard": "2.0.1",
+    "htmlhint": "0.9.13",
+    "husky": "0.13.1",
+    "npm-run-all": "4.0.2",
+    "stylelint": "7.9.0",
+    "stylelint-config-standard": "16.0.0"
+  }
+}
