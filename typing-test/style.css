@@ -1,3 +1,15 @@
+body {
+  font-size: x-large;
+}
+
 .current {
   text-decoration: underline;
+}
+
+.correct {
+  color: rgb(81, 239, 23);
+}
+
+.incorrect {
+  color: tomato;
 }
