@@ -8,15 +8,16 @@ for (var i = 0; i < text.length; i++) {
 
 var $firstLetter = document.querySelector('span')
 $firstLetter.classList.add('current')
-console.log($firstLetter)
 
 document.addEventListener('keypress', function (event) {
   var $current = document.querySelector('.current')
   var $currentCharacter = $current.textContent
   if (event.key === $currentCharacter) {
+    $current.classList.add('correct')
     $current.classList.remove('current')
     $current.nextSibling.classList.add('current')
-  } else {
-    //
+  }
+  else {
+    $current.classList.add('incorrect')
   }
 })
